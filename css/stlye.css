@@ -1,0 +1,61 @@
+.head
+{display: grid; grid-template-columns: 1fr 3fr 1fr;}
+img
+{width: 10%; margin-left: 20px; cursor: pointer;}
+.youtube
+{width: 80px; margin-left: 10px;}
+.searchbar
+{width: 400px; height: 30px; margin-left: 50px;}
+.body
+{display: grid; grid-template-columns: 8% 90%; margin-top: 7px;}
+.section1
+{display: grid; grid-template-rows; width: 100%; height: 40%;}
+.button{background-color: navy; border: transparent; cursor: pointer; }
+.pp{
+  font-size: 12px;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 12px;
+  cursor: pointer;
+  }
+  .pp2
+  { font-size: 12px;margin-top: 10px; margin-left: 19px;cursor: pointer;}
+  .entities{
+width: 25%;
+margin-top:10px;
+margin-right: 10px;
+}
+.firsticon
+{margin-top: 8px;}
+.main-img
+{width: 100%;}
+.black
+{width: 90%; margin-top: 35px; display: inline-block;}
+.section2
+{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; margin-bottom: 20px; background-color: rgb(236, 235, 233);}
+.redown
+{width: 100%; display: grid; grid-template-columns: 1fr 5fr; margin-left:10px; }
+.left
+{width: ;}
+.right
+{  margin-left: 30px;}
+.channel
+{width: 100%; border-radius: 25px;margin-top: 15px;}
+.lastp
+{margin-bottom:5px; }
+.lastpp{margin-top: 10px;}
+.hover
+{border-radius: 20px; margin-top: 10px;}
+.button
+{width: 50px; height: 60px; background-color: transparent; }
+
+.icons
+{width: 70%; margin-left:5px ;}
+.button:hover
+{background-color: rgb(221, 221, 221); }
+.icons2
+{width: 60%; margin-left:5px ; margin:0;}
+.button2
+{width: 60px; height: 80px; background-color: transparent; border: transparent; margin-top: 20px; margin-left: 7px;}
+.button2:hover
+{background-color: rgb(241, 241, 241); } 
