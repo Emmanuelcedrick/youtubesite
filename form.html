@@ -2,14 +2,33 @@
 <head>
     <title> form</title>
 <style>
-
+.maindiv
+{ display: grid;   grid-template-rows: 50px; background-color: rgb(247, 253, 253);width: 50%; height: 400px; margin-left: 50px; margin-top: 30px;}
+.text
+{width: 50%; height: 30px; margin-top: 15px; border-radius: 5px;border-color: rgb(162, 163, 163); color: #ebe2e2; margin-left: 20px;}
+.button
+{height: 35px; width: 50%; color: #dcdae2; background-color: rgb(94, 94, 228); border: none;border-radius: 5px; cursor: pointer;margin-left: 20px;}
+.para
+{margin-left: 70px;}
+.paragrah
+{font-size: 25px; margin-top: 20px; margin-left: 20px;}
+.body
+{background-color: rgb(60, 60, 196);}
+.check
+{margin-left: 20px;}
 </style>
 </head>
-<body>
-<div>
-<p><b>Registration</b></p>
+<body class="body" >
 
-
+<div class="maindiv">
+<p class="paragrah"><b> Registration</b></p>
+<input class="text" type="text" placeholder="Enter your name">
+<input class="text" type="text" placeholder="Enter your email">
+<input  class="text" type="text" placeholder="create password">
+<input class="text"  type="text" placeholder="Confirm password">
+<p class="check"><input  type="checkbox">i accept all terms & conditions</p>
+<button class="button">Register Now</button>
+<p class="para">Already have an account?</p>
 
 
 
